@@ -1,0 +1,14 @@
+.lead {
+    margin: auto;
+    width: 90.625vw;
+    max-width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        width: 100vw;
+    }
+}
